@@ -34,7 +34,7 @@ const HomePage = () => {
                     <AboutSection />
                     <SkillsSection />
                     <ProjectsSection />
-                    <RecentBlogSection />
+                    {/*<RecentBlogSection />*/}
                     {/*<ContactSection />*/}
 
                     {/* 푸터를 위한 여백 추가 */}

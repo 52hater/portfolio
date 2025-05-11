@@ -75,13 +75,13 @@ const Navbar = () => {
                         >
                             Projects
                         </NavLink>
-                        <NavLink
-                            to="/"
-                            sectionId="blog-section"
-                            useRouter={false}
-                        >
-                            Blog
-                        </NavLink>
+                        {/*<NavLink*/}
+                        {/*    to="/"*/}
+                        {/*    sectionId="blog-section"*/}
+                        {/*    useRouter={false}*/}
+                        {/*>*/}
+                        {/*    Blog*/}
+                        {/*</NavLink>*/}
                         <NavLink to="/resume">
                             Resume
                         </NavLink>

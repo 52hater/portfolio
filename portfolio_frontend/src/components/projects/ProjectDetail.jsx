@@ -32,7 +32,7 @@ const ProjectDetail = ({ project }) => {
                     프로젝트 소개
                 </h2>
                 <p className="text-gray-700 dark:text-gray-300 whitespace-pre-line">
-                    {project.description}
+                    {project.fullDescription}
                 </p>
             </div>
 
@@ -50,16 +50,16 @@ const ProjectDetail = ({ project }) => {
             </div>
 
             <div className="flex flex-wrap gap-4">
-                {project.demoUrl && (
-                    <Button variant="primary" size="lg" as="a" href={project.demoUrl} target="_blank" rel="noopener noreferrer">
-            <span className="flex items-center">
-              <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-              </svg>
-              Live Demo
-            </span>
-                    </Button>
-                )}
+            {/*    {project.demoUrl && (*/}
+            {/*        <Button variant="primary" size="lg" as="a" href={project.demoUrl} target="_blank" rel="noopener noreferrer">*/}
+            {/*<span className="flex items-center">*/}
+            {/*  <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">*/}
+            {/*    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />*/}
+            {/*  </svg>*/}
+            {/*  Live Demo*/}
+            {/*</span>*/}
+            {/*        </Button>*/}
+            {/*    )}*/}
 
                 {project.githubUrl && (
                     <Button variant="outline" size="lg" as="a" href={project.githubUrl} target="_blank" rel="noopener noreferrer">
