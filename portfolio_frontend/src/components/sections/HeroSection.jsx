@@ -25,10 +25,10 @@ const HeroSection = () => {
                         <div className="h-1"></div>
                         <p className="text-l text-white max-w-lg mx-auto">
                             프론트엔드, 백엔드, 임베디드 시스템, 그 어떠한 분야든<br /> 직접 구현하는 것을 즐깁니다.<br/><br/>
-                            일단 해보는 것,<br/>
+                            시작하세요, 오늘이 가장 빠른 날입니다.<br/>
                             그것이 변화의 물결을 만듭니다.<br/><br/>
-                            <p className="text-l text-bold text-pink-200 max-w-lg mx-auto"> "가장 중요한 것은 이미 가지고 있습니다." <br/></p><br />
-                            <p className="text-l text-white max-w-lg mx-auto">저는 오늘도 시작합니다.</p>
+                            <p className="text-l text-bold text-pink-200 max-w-lg mx-auto"> "꾸준히 쌓아가는 노력, 그것이 가장 큰 자산입니다." <br/></p><br />
+                            <p className="text-l text-white max-w-lg mx-auto"> 매일 한 걸음씩 나아가겠습니다. </p>
                         </p>
 
                         {/*<div className="flex flex-wrap gap-4 justify-center mt-8">*/}
