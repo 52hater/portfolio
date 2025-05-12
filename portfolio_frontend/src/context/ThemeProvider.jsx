@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react';
 import ThemeContext from './ThemeContext.jsx';
 
 export const ThemeProvider = ({ children }) => {
-    const [isDarkMode, setIsDarkMode] = useState(false);
+    // 초기상태는 다크모드
+    const [isDarkMode, setIsDarkMode] = useState(true);
 
     useEffect(() => {
         // 사용자 시스템 설정 또는 저장된 선호도에 따라 초기 테마 설정
@@ -13,7 +14,8 @@ export const ThemeProvider = ({ children }) => {
             setIsDarkMode(savedTheme === 'dark');
         } else {
             // setIsDarkMode(prefersDark);
-            setIsDarkMode(false);
+            // 기본설정 : 다크모드
+            setIsDarkMode(true);
         }
     }, []);
 
