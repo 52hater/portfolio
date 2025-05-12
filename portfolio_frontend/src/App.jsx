@@ -3,7 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { ThemeProvider } from './context/ThemeProvider';
 import Navbar from './components/common/layout/Navbar';
 import Footer from './components/common/layout/Footer';
-import ScrollToTop from './utils/ScrollToTop';
+import ScrollToTop from './utils/scrollToTop';
 import { AppRoutes } from './utils/router';
 import ScrollToTopButton from './components/common/ui/ScrollToTopButton';
 
