@@ -1,5 +1,5 @@
 import blogPosts from '../assets/data/BlogPosts';
-import projects from '../assets/data/projects';
+import projects from '../assets/data/projects.jsx';
 
 // 미래에 실제 API 연동 시 이 부분만 수정하면 됨
 const API_ENDPOINT = process.env.NODE_ENV === 'production'
