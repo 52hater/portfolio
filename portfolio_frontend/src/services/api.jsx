@@ -1,10 +1,13 @@
 import blogPosts from '../assets/data/BlogPosts';
 import projects from '../assets/data/projects.jsx';
 
-// 미래에 실제 API 연동 시 이 부분만 수정하면 됨
-const API_ENDPOINT = process.env.NODE_ENV === 'production'
-    ? 'https://api.yourdomain.com'
-    : '';
+// // 미래에 실제 API 연동 시 이 부분만 수정하면 됨
+// const API_ENDPOINT = process.env.NODE_ENV === 'production'
+//     ? 'https://api.yourdomain.com'
+//     : '';
+
+// 현재 백엔드개발 보류
+const API_ENDPOINT = '';
 
 // 프로젝트 관련 API 함수
 export const fetchProjects = async () => {
@@ -24,6 +27,7 @@ export const fetchProjects = async () => {
     return response.json();
 };
 
+// 현재 더미데이터만 쓰니까 !API_ENDPOINT 임
 export const fetchProjectById = async (projectId) => {
     if (!API_ENDPOINT) {
         return new Promise(resolve => {
