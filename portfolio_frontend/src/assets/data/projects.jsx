@@ -51,7 +51,7 @@ const projects = [
         thumbnail: projectImage1,
         technologies: ['React', 'SpringBoot', 'MySQL', 'JavaScript', 'TailwindCSS'],
         demoUrl: 'https://example.com',
-        githubUrl: 'https://github.com/yourusername/portfolio'
+        githubUrl: 'https://github.com/52hater/Project_Farm'
     },
     {
         id: 'project2',
@@ -326,7 +326,7 @@ const projects = [
         thumbnail: projectImage1,
         technologies: ['Pytorch', 'Numpy', 'matplotlib', 'OpenCV'],
         demoUrl: 'https://example.com/todo',
-        githubUrl: 'https://github.com/yourusername/todo-app'
+        githubUrl: 'https://github.com/Plastic-Recycling/'
     },
     {
         id: 'project3',
@@ -336,7 +336,7 @@ const projects = [
         thumbnail: projectImage1,
         technologies: ['ESP-IDF'],
         demoUrl: 'https://example.com/weather',
-        githubUrl: 'https://github.com/yourusername/weather-app'
+        githubUrl: 'https://github.com/52hater/esp32_temp'
     },
     {
         id: 'project4',
@@ -346,7 +346,7 @@ const projects = [
         thumbnail: projectImage1,
         technologies: ['STM32CubeIDE', 'MXCube'],
         demoUrl: 'https://example.com/board',
-        githubUrl: 'https://github.com/yourusername/board-service'
+        githubUrl: 'https://github.com/52hater/stm32_workspace'
     },
     {
         id: 'project5',
@@ -356,7 +356,7 @@ const projects = [
         thumbnail: projectImage1,
         technologies: ['Figma'],
         demoUrl: 'https://example.com/board',
-        githubUrl: 'https://github.com/yourusername/board-service'
+        githubUrl: 'https://github.com/52hater/bloom'
     }
 ];
 
