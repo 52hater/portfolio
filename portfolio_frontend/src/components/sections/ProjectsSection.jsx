@@ -66,11 +66,24 @@ const ProjectsSection = () => {
                                     key={project.id}
                                     className="bg-white/50 dark:bg-background-dark2/50 backdrop-blur-sm rounded-lg shadow-sm hover:shadow-md transition-shadow px-6 py-5 border border-gray-100/50 dark:border-gray-800/50"
                                 >
-                                    <div className="flex flex-col md:flex-row md:items-center justify-between">
-                                        <div className="md:w-3/4">
-                                            <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">
-                                                {project.title}
-                                            </h3>
+                                    <div className="flex flex-col md:flex-row md:items-center">
+                                        {/* 썸네일 이미지 추가 */}
+                                        <div className="md:w-1/5 flex-shrink-0 mb-4 md:mb-0 md:mr-6">
+                                            <Link to={`/projects/${project.id}`}>
+                                                <img
+                                                    src={project.thumbnail || '/src/assets/images/backgrounds/1234.jpg'}
+                                                    alt={project.title}
+                                                    className="w-full h-auto rounded-lg object-cover aspect-square"
+                                                />
+                                            </Link>
+                                        </div>
+
+                                        <div className="md:w-3/5">
+                                            <Link to={`/projects/${project.id}`}>
+                                                <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2 hover:text-primary dark:hover:text-primary-light transition-colors">
+                                                    {project.title}
+                                                </h3>
+                                            </Link>
                                             <p className="text-gray-600 dark:text-gray-300 mb-3">
                                                 {project.description}
                                             </p>
@@ -82,7 +95,7 @@ const ProjectsSection = () => {
                                                 ))}
                                             </div>
                                         </div>
-                                        <div className="flex items-center mt-4 md:mt-0 md:ml-4">
+                                        <div className="flex items-center mt-4 md:mt-0 md:ml-auto">
                                             <Link
                                                 to={`/projects/${project.id}`}
                                                 className="text-primary hover:text-primary-dark dark:hover:text-primary-light text-sm font-medium mr-6"

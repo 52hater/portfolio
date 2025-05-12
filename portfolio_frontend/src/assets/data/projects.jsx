@@ -55,7 +55,7 @@ const projects = [
     },
     {
         id: 'project2',
-        title: 'Plastic-Rectcling',
+        title: 'Plastic-Recycling',
         description: '병 판별 빅데이터 / AI 분석 웹서비스',
         fullDescription: '![logoW](https://raw.githubusercontent.com/Plastic-Recycling/.github/refs/heads/main/profile/logoW.png)\n' +
             '\n' +
